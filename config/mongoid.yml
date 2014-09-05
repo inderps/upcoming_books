@@ -69,8 +69,8 @@ test:
         retry_interval: 0
 
 production:
-     sessions:
-       default:
-         database: upcoming_books
-         hosts:
-           - localhost:27017
+  sessions:
+    default:
+      database: upcoming_books
+      hosts:
+        - localhost:27017
