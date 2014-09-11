@@ -12,5 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require turbolinks
-//= require_tree .
+//= require countdown/jquery.plugin.min
+//= require countdown/jquery.countdown.min
+//= require backstretch/backstretch.min

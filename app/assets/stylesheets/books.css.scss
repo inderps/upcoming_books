@@ -1,3 +1,26 @@
-// Place all the styles related to the books controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#bookLandingPage{
+  .page-section{
+    width: 80%;
+    text-align: center;
+    margin: 150px auto;
+    border-radius: 25px;
+    z-index: 1;
+    overflow: hidden;
+    padding: 25px;
+    opacity: 0.9;
+  }
+  .book-page-section{
+    background-color: #2C3E50;
+    .book-cover img{
+      width: 150px;
+      border: 5px solid #ffffff;
+    }
+  }
+}
