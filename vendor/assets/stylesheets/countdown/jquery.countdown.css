@@ -3,6 +3,7 @@
     margin: 25px auto;
     font-size: 48px;
     width: 75%;
+    font-family: 'Open Sans', sans-serif;
 }
 .countdown-rtl {
 	direction: rtl;
