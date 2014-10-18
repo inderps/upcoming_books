@@ -21,6 +21,10 @@
   =require twitter-bootstrap-static/fontawesome
 */
 
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 #site-header{
     height: 70px;
     background-color: #fff;

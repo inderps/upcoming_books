@@ -1,0 +1,115 @@
+#home-page-banner{
+  height: 450px;
+  display: table;
+  text-align: center;
+  width: 100%;
+
+  h1{
+    display:table-cell;
+    vertical-align:middle;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+  }
+}
+
+.mainpage-content{
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#content-1{
+  padding: 50px;
+  background-color: #FFFFFF;
+
+  h1{
+    font-size: 36px;
+  }
+  h3{
+    margin-top: 25px;
+    color: #929d9d;
+  }
+}
+
+#content-2{
+  .col-md-4{
+    padding: 25px;
+    text-align: center;
+    h4{
+      font-weight: bold;
+    }
+
+    p{
+      color: #929d9d;
+      text-align: left;
+    }
+
+    .logo{
+      width: 80px;
+      height: 80px;
+      background-size: 80px 80px;
+      margin: auto;
+    }
+
+    &.create .logo{
+      background-image: image-url('Book.png');;
+    }
+
+    &.share .logo{
+      background-image: image-url('Pensils.png');;
+    }
+
+    &.promote .logo{
+      background-image: image-url('Chat.png');;
+    }
+  }
+}
+
+#signup-form{
+  h1{
+    margin-bottom: 50px;
+  }
+  margin-bottom: 100px;
+}
+
+#footer{
+  background-color: #f4f5f6;
+  text-align: center;
+
+  h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .links{
+    width: 55%;
+    margin: auto;
+
+    a{
+      color: #b1bcbd;
+    }
+
+    a:hover{
+      color: #b1bcbd;
+    }
+  }
+
+  .social-links{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    ul{
+      list-style: none;
+      float: right;
+      li{
+        float: left;
+        padding-left: 10px;
+        img{
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}

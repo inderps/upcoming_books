@@ -23,54 +23,67 @@
   </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
-<div class="jumbotron">
-  <h1>Hello, world!</h1>
+
+<div class="jumbotron" id="home-page-banner">
+  <h1>Want to promote your upcoming book?</h1>
 </div>
-<div class="row">
-  <div class="col-xs-12 col-md-12">
-    <h1>We've created a platform that helps you promote your book before launch</h1>
-    <h3>Create a campaign, share with your readers and build excitement!</h3>
-  </div>
+
+<div class="jumbotron mainpage-content" id="content-1">
+  <h1>We've created a platform that helps you promote your book before launch</h1>
+  <h3>Create a campaign, share with your readers and build excitement!</h3>
 </div>
-<div class="row">
-  <div class="col-md-4">
+<div class="row mainpage-content" id="content-2">
+  <div class="col-md-4 create">
     <div class="logo"></div>
     <h4>Create a book page</h4>
-    <p>You can easily create a promotional campaign page for your upcoming book</p>
+    <p>You can easily create a promotional campaign page for your upcoming book.</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 share">
     <div class="logo"></div>
-    <h4>Create a book page</h4>
-    <p>You can easily create a promotional campaign page for your upcoming book</p>
+    <h4>Write about your book</h4>
+    <p>Share snippets from your book or a free chapter to give readers a glimpse into the book.</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 promote">
     <div class="logo"></div>
-    <h4>Create a book page</h4>
-    <p>You can easily create a promotional campaign page for your upcoming book</p>
+    <h4>Promote by sharing</h4>
+    <p>Share your unique book page with your readers to give them an insight on the upcoming book</p>
   </div>
 </div>
-<div class="row">
+<div class="row mainpage-content" id="signup-form">
   <div class="col-md-12">
     <h1>Sign Up right now and get a free trial!</h1>
     <form class="form-inline" role="form">
       <div class="form-group">
         <label class="sr-only" for="exampleInputEmail2">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Your email">
       </div>
       <div class="form-group">
         <label class="sr-only" for="exampleInputPassword2">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
       </div>
       <div class="form-group">
-        <label class="sr-only" for="exampleInputPassword2">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+        <label class="sr-only" for="exampleInputPassword2">Confirmation</label>
+        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirmation">
       </div>
-      <button type="submit" class="btn btn-default">Sign in</button>
+      <button type="submit" class="btn btn-red">Sign Up</button>
     </form>
   </div>
 </div>
 <div id="footer">
   <div class="container">
-    <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+    <h3>200 users registered since October</h3>
+    <div class="links row">
+      <div class="col-md-3"><a href="#">Terms & Conditions</a></div>
+      <div class="col-md-3"><a href="#">Privacy Policy</a></div>
+      <div class="col-md-3"><a href="#">Pricing</a></div>
+      <div class="col-md-3"><a href="#">Contact Us</a></div>
+    </div>
+    <div class="social-links">
+      <ul>
+        <li><a href="#"><%= image_tag "64-facebook.png" %></a></li>
+        <li><a href="#"><%= image_tag "64-twitter.png" %></a></li>
+        <li><a href="#"><%= image_tag "64-googleplus.png" %></a></li>
+      </ul>
+    </div>
   </div>
 </div>
